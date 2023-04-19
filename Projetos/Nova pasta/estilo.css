@@ -1,0 +1,102 @@
+﻿/* Estilo geral */
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Estilo do cabeçalho */
+
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+}
+
+h1 {
+margin: 0;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin-right: 20px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+
+/* Estilo dos destaques */
+
+.destaques {
+background-color: #f5f5f5;
+padding: 20px;
+text-align: center;
+}
+
+.destaques h2 {
+margin-top: 0;
+}
+
+.produto {
+display: inline-block;
+margin: 20px;
+border: 1px solid #ccc;
+padding: 20px;
+text-align: center;
+}
+
+.produto img {
+max-width: 100%;
+}
+
+.produto h3 {
+margin-top: 0;
+}
+
+.produto p {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.produto button {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.produto button:hover {
+background-color: #555;
+}
+
+/* Estilo dos demais produtos */
+
+.produtos {
+padding: 20px;
+text-align: center;
+}
+
+.produtos h2 {
+margin-top: 0;
+}
+
+/* Estilo do rodapé */
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
